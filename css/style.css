@@ -54,4 +54,22 @@ header {
   align-items: center;
 }
 
+.hero-section {
+  display: flex;
+  justify-content: center;
+  margin: 2em auto;
+  padding: 2em;
+  max-width: fit-content;
+  background-color: #dedede;
+  align-items: center;
+}
+.hero-section svg {
+  color: #606ff4;
+  font-size: 2rem;
+}
+.hero-section .hero-headline {
+  color: #2d2d2d;
+  margin-left: 0.5em;
+}
+
 /*# sourceMappingURL=style.css.map */

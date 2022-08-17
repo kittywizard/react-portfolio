@@ -17,3 +17,24 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    margin: 2em auto;
+    padding: 2em;
+    max-width: fit-content;
+    background-color: $primary-light;
+    align-items: center;
+
+    svg {
+        color: $accent-color;
+        font-size: 2rem;
+    }
+    
+    .hero-headline {
+        color: $primary-dark;
+        margin-left: 0.5em;
+    }
+}
