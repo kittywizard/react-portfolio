@@ -1,0 +1,57 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 0.5em;
+  background-color: #dedede;
+}
+header .logo-letter {
+  font-weight: 300;
+  background-color: #606ff4;
+  color: #dedede;
+  padding: 0.5em;
+  border-radius: 100%;
+  font-size: 1.3rem;
+  transition: 0.5s all;
+}
+header .logo-letter:hover {
+  filter: contrast(200%);
+}
+header .logo-letter:hover {
+  font-weight: 700;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #606ff4;
+  font-size: 1.75rem;
+}
+.nav-link:hover {
+  filter: contrast(200%);
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+li {
+  padding: 0.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

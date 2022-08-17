@@ -1,0 +1,33 @@
+body {
+    font-family: $ff, sans-serif;
+}
+
+header {
+
+    padding: 0.5em;
+    background-color: $primary-light;
+
+    .logo-letter {
+        font-weight: 300;
+        @include contrast;
+        background-color: $accent-color;
+        color: $primary-light;
+        padding: 0.5em;
+        border-radius: 100%;
+        font-size: 1.3rem;
+
+        transition: 0.5s all;
+
+        &:hover {
+            font-weight: 700;
+        }
+}
+
+}
+
+    .nav-link {
+        text-decoration: none;
+        color: $accent-color;
+        font-size: 1.75rem;
+        @include contrast;
+    }

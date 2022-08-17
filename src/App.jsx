@@ -1,11 +1,16 @@
-import { useState } from 'react'
+import { useState } from 'react';
+import { AiFillGitlab } from 'react-icons/ai'
+
+import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
 
   return (
-    <div className="App">
-      testing
-    </div>
+    <main>
+      <Header />
+      <Hero/>
+    </main>
   )
 }
 
