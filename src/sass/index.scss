@@ -4,6 +4,7 @@
 @import "typography.scss";
 
 @import "nav.scss";
+@import "card.scss";
 
 * {
     margin: 0;
@@ -25,12 +26,14 @@ header {
     margin: 2em auto;
     padding: 2em;
     max-width: fit-content;
-    background-color: $primary-light;
     align-items: center;
+
+    h1, svg {
+        font-size: 3.25rem;
+    }
 
     svg {
         color: $accent-color;
-        font-size: 2rem;
     }
     
     .hero-headline {

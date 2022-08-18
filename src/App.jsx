@@ -1,8 +1,8 @@
-import { useState } from 'react';
-import { AiFillGitlab } from 'react-icons/ai'
+import 'animate.css';
 
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Card from './components/Card';
 
 function App() {
 
@@ -10,6 +10,12 @@ function App() {
     <main>
       <Header />
       <Hero/>
+      <section className='card-container'>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </section>
     </main>
   )
 }

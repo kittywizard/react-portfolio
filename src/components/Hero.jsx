@@ -5,8 +5,8 @@ export default function Hero() {
         <section className="hero-section">
             <ImPen />
             <h1 className="hero-headline">
-                Marleigh Morgan
-            </h1> 
+                Marleigh
+            </h1>  
         </section>
     )
 }

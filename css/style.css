@@ -42,6 +42,41 @@ li {
   padding: 0.5em;
 }
 
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  gap: 1em;
+  grid-template-rows: auto;
+  padding: 1em;
+  margin: 1em;
+}
+
+.card {
+  box-shadow: 1px 14px 26px -4px rgba(194, 194, 194, 0.56);
+  -webkit-box-shadow: 1px 14px 26px -4px rgba(194, 194, 194, 0.56);
+  -moz-box-shadow: 1px 14px 26px -4px rgba(194, 194, 194, 0.56);
+  align-self: center;
+  border-radius: 1em;
+}
+.card-img {
+  border-radius: 1em 1em 0 0;
+}
+.card-content {
+  padding: 0.5em;
+  margin-left: 0.5em;
+}
+.card .icon-container {
+  padding: 0.5em;
+  margin-left: 0.5em;
+}
+.card .icon-container svg {
+  font-size: 1.5rem;
+  transition: 0.5s all;
+}
+.card .icon-container svg:hover {
+  filter: contrast(200%);
+}
 * {
   margin: 0;
   padding: 0;
@@ -60,12 +95,13 @@ header {
   margin: 2em auto;
   padding: 2em;
   max-width: fit-content;
-  background-color: #dedede;
   align-items: center;
+}
+.hero-section h1, .hero-section svg {
+  font-size: 3.25rem;
 }
 .hero-section svg {
   color: #606ff4;
-  font-size: 2rem;
 }
 .hero-section .hero-headline {
   color: #2d2d2d;
