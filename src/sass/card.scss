@@ -9,9 +9,9 @@
 }
 
 .card {
-    box-shadow: 1px 14px 26px -4px rgba(194,194,194,0.56);
-    -webkit-box-shadow: 1px 14px 26px -4px rgba(194,194,194,0.56);
-    -moz-box-shadow: 1px 14px 26px -4px rgba(194,194,194,0.56);   
+    box-shadow: 1px 14px 26px -4px rgba(121, 120, 120, 0.78);
+    -webkit-box-shadow: 1px 14px 26px -4px rgba(121, 120, 120, 0.78);
+    -moz-box-shadow: 1px 14px 26px -4px rgba(121, 120, 120, 0.78);   
     align-self: center;
     border-radius: 1em;
 
@@ -30,14 +30,17 @@
         margin-left: 0.5em;
 
         svg {
-            font-size: 1.5rem;
+            font-size: 2.5rem;
+            padding: .25em;
             @include contrast;
+            box-sizing: unset;
             //animate__pulse
 
             transition: 0.5s all;
 
             &:hover {
                 //do some other transition here
+                color: $accent-color;
             }
         }
     }

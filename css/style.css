@@ -53,9 +53,9 @@ li {
 }
 
 .card {
-  box-shadow: 1px 14px 26px -4px rgba(194, 194, 194, 0.56);
-  -webkit-box-shadow: 1px 14px 26px -4px rgba(194, 194, 194, 0.56);
-  -moz-box-shadow: 1px 14px 26px -4px rgba(194, 194, 194, 0.56);
+  box-shadow: 1px 14px 26px -4px rgba(121, 120, 120, 0.78);
+  -webkit-box-shadow: 1px 14px 26px -4px rgba(121, 120, 120, 0.78);
+  -moz-box-shadow: 1px 14px 26px -4px rgba(121, 120, 120, 0.78);
   align-self: center;
   border-radius: 1em;
 }
@@ -71,12 +71,18 @@ li {
   margin-left: 0.5em;
 }
 .card .icon-container svg {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  padding: 0.25em;
+  box-sizing: unset;
   transition: 0.5s all;
 }
 .card .icon-container svg:hover {
   filter: contrast(200%);
 }
+.card .icon-container svg:hover {
+  color: #606ff4;
+}
+
 * {
   margin: 0;
   padding: 0;
